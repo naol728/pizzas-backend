@@ -1,12 +1,7 @@
-import express from "express";
-import cors from "cors";
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
-
-// Setup __dirname in ES Module
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const express = require("express");
+const cors = require("cors");
+const fs = require("fs");
+const path = require("path");
 
 // Define JSON file path
 const DATA_FILE = path.join(__dirname, "data.json");
@@ -55,7 +50,8 @@ app.delete("/api/menu/:id", (req, res) => {
 app.get("/api/order/:id", (req, res) => {
   const data = readData();
   const order = data.orders.find((o) => o.id == req.params.id);
-  if (!order) return res.status(404).json({ error: `Order #${req.params.id} not found` });
+  if (!order)
+    return res.status(404).json({ error: `Order #${req.params.id} not found` });
   res.json({ status: "success", data: order });
 });
 
@@ -72,7 +68,8 @@ app.post("/api/order", (req, res) => {
 app.patch("/api/order/:id", (req, res) => {
   const data = readData();
   const orderIndex = data.orders.findIndex((o) => o.id == req.params.id);
-  if (orderIndex === -1) return res.status(404).json({ error: "Order not found" });
+  if (orderIndex === -1)
+    return res.status(404).json({ error: "Order not found" });
 
   data.orders[orderIndex] = { ...data.orders[orderIndex], ...req.body };
   writeData(data);
