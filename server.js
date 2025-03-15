@@ -3,8 +3,7 @@ const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
 
-// Define JSON file path
-const DATA_FILE = path.join(__dirname, "data.json");
+const DATA_FILE = path.join(__dirname, "./data/data.json");
 
 // Initialize Express
 const app = express();

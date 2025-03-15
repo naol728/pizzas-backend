@@ -1,7 +1,7 @@
 {
   "menu": [
     {
-      "id": 1,
+      "pizzaId": 1,
       "name": "Margherita",
       "unitPrice": 12,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-1.jpg",
@@ -9,7 +9,7 @@
       "soldOut": false
     },
     {
-      "id": 2,
+      "pizzaId": 2,
       "name": "Capricciosa",
       "unitPrice": 14,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-2.jpg",
@@ -17,7 +17,7 @@
       "soldOut": true
     },
     {
-      "id": 3,
+      "pizzaId": 3,
       "name": "Romana",
       "unitPrice": 15,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-3.jpg",
@@ -25,7 +25,7 @@
       "soldOut": false
     },
     {
-      "id": 4,
+      "pizzaId": 4,
       "name": "Prosciutto e Rucola",
       "unitPrice": 16,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-4.jpg",
@@ -33,7 +33,7 @@
       "soldOut": false
     },
     {
-      "id": 5,
+      "pizzaId": 5,
       "name": "Diavola",
       "unitPrice": 16,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-5.jpg",
@@ -41,7 +41,7 @@
       "soldOut": false
     },
     {
-      "id": 6,
+      "pizzaId": 6,
       "name": "Vegetale",
       "unitPrice": 13,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-6.jpg",
@@ -55,7 +55,7 @@
       "soldOut": false
     },
     {
-      "id": 7,
+      "pizzaId": 7,
       "name": "Napoli",
       "unitPrice": 16,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-7.jpg",
@@ -63,7 +63,7 @@
       "soldOut": false
     },
     {
-      "id": 8,
+      "pizzaId": 8,
       "name": "Siciliana",
       "unitPrice": 16,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-8.jpg",
@@ -71,7 +71,7 @@
       "soldOut": true
     },
     {
-      "id": 9,
+      "pizzaId": 9,
       "name": "Pepperoni",
       "unitPrice": 14,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-9.jpg",
@@ -79,7 +79,7 @@
       "soldOut": false
     },
     {
-      "id": 10,
+      "pizzaId": 10,
       "name": "Hawaiian",
       "unitPrice": 15,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-10.jpg",
@@ -87,7 +87,7 @@
       "soldOut": false
     },
     {
-      "id": 11,
+      "pizzaId": 11,
       "name": "Spinach and Mushroom",
       "unitPrice": 15,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-11.jpg",
@@ -95,7 +95,7 @@
       "soldOut": false
     },
     {
-      "id": 12,
+      "pizzaId": 12,
       "name": "Mediterranean",
       "unitPrice": 16,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-12.jpg",
@@ -109,7 +109,7 @@
       "soldOut": false
     },
     {
-      "id": 13,
+      "pizzaId": 13,
       "name": "Greek",
       "unitPrice": 16,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-13.jpg",
@@ -124,7 +124,7 @@
       "soldOut": true
     },
     {
-      "id": 14,
+      "pizzaId": 14,
       "name": "Abruzzese",
       "unitPrice": 16,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-14.jpg",
@@ -132,7 +132,7 @@
       "soldOut": false
     },
     {
-      "id": 15,
+      "pizzaId": 15,
       "name": "Pesto Chicken",
       "unitPrice": 16,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-15.jpg",
@@ -146,7 +146,7 @@
       "soldOut": false
     },
     {
-      "id": 16,
+      "pizzaId": 16,
       "name": "Eggplant Parmesan",
       "unitPrice": 15,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-16.jpg",
@@ -154,7 +154,7 @@
       "soldOut": false
     },
     {
-      "id": 17,
+      "pizzaId": 17,
       "name": "Roasted Veggie",
       "unitPrice": 15,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-17.jpg",
@@ -169,7 +169,7 @@
       "soldOut": false
     },
     {
-      "id": 18,
+      "pizzaId": 18,
       "name": "Tofu and Mushroom",
       "unitPrice": 15,
       "imageUrl": "https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-18.jpg",
