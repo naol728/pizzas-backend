@@ -55,11 +55,20 @@ app.get("/api/order/:id", (req, res) => {
 });
 
 // 🛍 POST /order - Create a new order
+// 🛍 POST /order - Create a new order
 app.post("/api/order", (req, res) => {
   const data = readData();
-  const newOrder = { id: Date.now(), ...req.body, status: "pending" };
+
+  const newOrder = {
+    id: Date.now(),
+    ...req.body,
+    status: "pending",
+    timestamp: new Date().toISOString(), // Add timestamp
+  };
+
   data.orders.push(newOrder);
   writeData(data);
+
   res.status(201).json({ status: "success", data: newOrder });
 });
 
